@@ -1,6 +1,8 @@
 # MedPay_Automation
 A hybrid framework automated using Vbscript in UFT tool.
-The script uses a driverscript that will trigger each test case based on whether the test case is checked as "Yes" or "No" in excel.
+The automation suite uses both static and descriptive programming.
+The test objects are defined in local object repository. 
+The script uses a driverscript that will trigger each test case based on whether the test case is checked as "Yes" or "No" in excel and use the objects defined in the repository to test on them.
 The driverscript picks the test data from an excel file "TestCases.xls" and run based on the test data provided in excel.
 The excel has sheet called as "TestCaseDetails" which represent testcase details like steps, pre-conditions and expected results.
 Each tescase is written as function in suite.
